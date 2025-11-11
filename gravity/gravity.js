@@ -1,6 +1,4 @@
-// gravity.js — Phase 5 upgrade + Analytic predicted trajectory overlay
-// Keeps all previous features (trajectory, vector, pred-time, impact pause, peak marker, timeScale, etc.)
-// Adds: analytic predicted parabolic arc overlay drawn each frame for direct comparison
+
 
 window.addEventListener('DOMContentLoaded', async () => {
   // --- element references (existing HUD IDs expected) ---
@@ -151,8 +149,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     return t;
   }
 
-  // --- NEW: compute predicted trajectory (returns array of points in pixels)
-  // We integrate analytically per small time-step using the same units as update().
+
   function computePredictedTrajectory(ballState, maxSteps = 600, dtStep = 1/60) {
     const pts = [];
     // a_px is acceleration in px/s^2 (note: we include timeScale to match visual speed)
@@ -472,5 +469,4 @@ window.addEventListener('DOMContentLoaded', async () => {
     ball.color1 = PLANET.accent || ball.color1;
   };
 
-  console.log('✅ gravity.js upgraded: analytic overlay + planet theme + atmosphere + energy HUD + ripple + transitions loaded.');
 });

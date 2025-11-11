@@ -1,6 +1,6 @@
 // solar.js — corrected, non-destructive fixes
 window.addEventListener('DOMContentLoaded', () => {
-  console.log("✅ Solar System initialized (fixed)");
+  console.log("Solar System initialized (fixed)");
 
   const space = document.getElementById('space');
   const solarSystem = document.getElementById('solarSystem');

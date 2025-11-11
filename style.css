@@ -1,4 +1,4 @@
-/* ====== Base Reset ====== */
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
@@ -206,7 +206,7 @@ body.show-trails .planet::before {
   .info-panel { width: 220px; right: 10px; top: 10px; }
 }
 
-/* ☀️ Sun */
+/* Sun */
 .sun {
   position: absolute;
   top: 50%;

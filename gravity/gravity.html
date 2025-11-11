@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Planetary Gravity Lab — Night</title>
+  <link rel="stylesheet" href="gravity.css" />
+</head>
+<body>
+  <div class="hud">
+    <h1>Planetary Gravity Lab</h1>
+
+    <div class="row">
+      <div class="label">Gravity</div>
+      <div class="value"><span id="gravityValue">9.8</span> m/s²</div>
+    </div>
+
+    <div id="physicsData" class="grid">
+      <div>v: <span id="velocityVal">0.00</span> m/s</div>
+      <div>h: <span id="heightVal">0.00</span> m</div>
+      <div>t: <span id="timeVal">0.00</span> s</div>
+      <div>pred tᵢ: <span id="predTimeVal">—</span> s</div>
+    </div>
+
+    <div class="controls">
+      <label class="control-inline">Adjust gravity
+        <input id="gravitySlider" type="range" min="1" max="25" step="0.1" value="9.8"/>
+      </label>
+
+      <label class="control-inline">Time scale
+        <input id="timeScaleSlider" type="range" min="0.2" max="1" step="0.05" value="1"/>
+      </label>
+
+      <div class="quick-buttons">
+        <button id="slow25">0.25x</button>
+        <button id="slow50">0.5x</button>
+        <button id="norm">1x</button>
+      </div>
+
+      <button id="resetBtn" class="primary">Reset (drop center)</button>
+    </div>
+
+    <div class="help">Tip: change gravity, then press Reset to drop from center. Use time-scale to slow motion.</div>
+  </div>
+
+  <canvas id="gravityCanvas"></canvas>
+
+  <script src="gravity.js"></script>
+</body>
+</html>

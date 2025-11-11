@@ -1,0 +1,50 @@
+{
+  "Mercury": {
+    "gravity": 3.7,
+    "sky": ["#1e1e1e", "#0d0d0d"],
+    "ground": ["#3a3a3a", "#121212"],
+    "accent": "#b0b0b0"
+  },
+  "Venus": {
+    "gravity": 8.9,
+    "sky": ["#6e4c1c", "#2e1c0f"],
+    "ground": ["#4b2a09", "#1a0e05"],
+    "accent": "#ffb366"
+  },
+  "Earth": {
+    "gravity": 9.8,
+    "sky": ["#0b1228", "#031123"],
+    "ground": ["#063042", "#001018"],
+    "accent": "#00e5b0"
+  },
+  "Mars": {
+    "gravity": 3.7,
+    "sky": ["#421b0f", "#1a0803"],
+    "ground": ["#5a1f0d", "#260b05"],
+    "accent": "#ff7b47"
+  },
+  "Jupiter": {
+    "gravity": 24.8,
+    "sky": ["#3a2d1a", "#140f06"],
+    "ground": ["#5a411a", "#221706"],
+    "accent": "#ffcc66"
+  },
+  "Saturn": {
+    "gravity": 10.4,
+    "sky": ["#3b3020", "#161209"],
+    "ground": ["#5c4b1a", "#231d09"],
+    "accent": "#f7d78b"
+  },
+  "Uranus": {
+    "gravity": 8.9,
+    "sky": ["#0f2433", "#04111a"],
+    "ground": ["#123f4f", "#03171d"],
+    "accent": "#81ffff"
+  },
+  "Neptune": {
+    "gravity": 11.2,
+    "sky": ["#0b1f5a", "#020826"],
+    "ground": ["#1c3f8b", "#051539"],
+    "accent": "#5aaaff"
+  }
+}

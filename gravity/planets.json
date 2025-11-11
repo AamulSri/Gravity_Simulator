@@ -1,50 +1,73 @@
 {
+  "Sun": {
+    "gravity": 274,
+    "accent": "#ffb347",
+    "sky": ["#3b1200", "#000000"],
+    "ground": ["#6b1d00", "#160000"],
+    "atmosphere": "rgba(255, 180, 80, 0.08)"
+  },
+
   "Mercury": {
     "gravity": 3.7,
-    "sky": ["#1e1e1e", "#0d0d0d"],
-    "ground": ["#3a3a3a", "#121212"],
-    "accent": "#b0b0b0"
+    "accent": "#bdbdbd",
+    "sky": ["#0e0e0e", "#000000"],
+    "ground": ["#3a3a3a", "#1a1a1a"],
+    "atmosphere": "rgba(180, 180, 180, 0.04)"
   },
+
   "Venus": {
-    "gravity": 8.9,
-    "sky": ["#6e4c1c", "#2e1c0f"],
-    "ground": ["#4b2a09", "#1a0e05"],
-    "accent": "#ffb366"
+    "gravity": 8.87,
+    "accent": "#e5c97b",
+    "sky": ["#5a3d00", "#120900"],
+    "ground": ["#9e7820", "#402c00"],
+    "atmosphere": "rgba(255, 210, 120, 0.06)"
   },
+
   "Earth": {
-    "gravity": 9.8,
-    "sky": ["#0b1228", "#031123"],
-    "ground": ["#063042", "#001018"],
-    "accent": "#00e5b0"
+    "gravity": 9.81,
+    "accent": "#00aaff",
+    "sky": ["#0b1533", "#00101c"],
+    "ground": ["#004466", "#001822"],
+    "atmosphere": "rgba(0, 230, 255, 0.08)"
   },
+
   "Mars": {
-    "gravity": 3.7,
-    "sky": ["#421b0f", "#1a0803"],
-    "ground": ["#5a1f0d", "#260b05"],
-    "accent": "#ff7b47"
+    "gravity": 3.71,
+    "accent": "#ff7043",
+    "sky": ["#2e0a00", "#000000"],
+    "ground": ["#661800", "#200000"],
+    "atmosphere": "rgba(255, 90, 50, 0.06)"
   },
+
   "Jupiter": {
     "gravity": 24.8,
-    "sky": ["#3a2d1a", "#140f06"],
-    "ground": ["#5a411a", "#221706"],
-    "accent": "#ffcc66"
+    "accent": "#f7e3b2",
+    "sky": ["#1e1500", "#000000"],
+    "ground": ["#6b4c00", "#1a1300"],
+    "atmosphere": "rgba(250, 220, 160, 0.06)"
   },
+
   "Saturn": {
-    "gravity": 10.4,
-    "sky": ["#3b3020", "#161209"],
-    "ground": ["#5c4b1a", "#231d09"],
-    "accent": "#f7d78b"
+    "gravity": 10.44,
+    "accent": "#f9e7a5",
+    "sky": ["#2c2100", "#000000"],
+    "ground": ["#8a6e00", "#1e1600"],
+    "atmosphere": "rgba(255, 245, 160, 0.05)"
   },
+
   "Uranus": {
-    "gravity": 8.9,
-    "sky": ["#0f2433", "#04111a"],
-    "ground": ["#123f4f", "#03171d"],
-    "accent": "#81ffff"
+    "gravity": 8.69,
+    "accent": "#a8ffff",
+    "sky": ["#05323a", "#00060a"],
+    "ground": ["#0c3f4a", "#001a20"],
+    "atmosphere": "rgba(160, 255, 255, 0.06)"
   },
+
   "Neptune": {
-    "gravity": 11.2,
-    "sky": ["#0b1f5a", "#020826"],
-    "ground": ["#1c3f8b", "#051539"],
-    "accent": "#5aaaff"
+    "gravity": 11.15,
+    "accent": "#5a8bff",
+    "sky": ["#031037", "#000013"],
+    "ground": ["#062860", "#000820"],
+    "atmosphere": "rgba(90, 140, 255, 0.08)"
   }
 }

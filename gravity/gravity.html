@@ -46,5 +46,25 @@
   <canvas id="gravityCanvas"></canvas>
 
   <script src="gravity.js"></script>
+
+  <button id="returnBtn" style="
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 8px 14px;
+  color: #b8faff;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 50;
+">⏪ Return to Solar System</button>
+
+<script>
+document.getElementById('returnBtn').addEventListener('click', ()=>{
+  window.location.href = '../index.html';
+});
+</script>
+
 </body>
 </html>
